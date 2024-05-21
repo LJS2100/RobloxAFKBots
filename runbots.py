@@ -40,7 +40,7 @@ for x,y in zip(nameList, passwordList):
     signInButton = driver.find_element_by_id('login-button')
     signInButton.click()#game-details-play-button-container > button
     time.sleep(4)
-    driver.get("https://www.roblox.com/games/6852386028/Warehouse-v-1?refPageId=70c151ea-dc06-4bad-a565-d5591af398a9")
+    driver.get("https://www.roblox.com/games/start?launchData=%7B%5C"psCode%5C"%3A%5C"LCRRRP%5C"%7D&placeId=2534724415")
     time.sleep(4)
  
 #     <button type="button" class="btn-full-width btn-common-play-game-lg btn-primary-md btn-min-width"><span class="icon-common-play"></span></button>
